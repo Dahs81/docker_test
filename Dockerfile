@@ -6,3 +6,4 @@ RUN apt-get -qq install build-essential
 
 ADD test.txt /data/
 RUN echo "test"
+RUN echo "test2"
