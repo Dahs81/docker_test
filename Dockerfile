@@ -1,7 +1,7 @@
 FROM dockerfile/nodejs
 MAINTAINER Shad Beard
 
-ENV CORE_HOST=localhost
+ENV CORE_HOST localhost
 
 RUN apt-get update
 RUN apt-get -qq install build-essential
